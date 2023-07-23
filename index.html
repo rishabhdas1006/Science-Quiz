@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Quiz</title>
+	<link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+	<script src="https://kit.fontawesome.com/9b31b409df.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="quiz-title">
+		Science Quiz
+	</div>
+
+    <div class="back">
+        <div>
+            <i class="fa-solid fa-flask fa-2xl fa-fade"></i> &ensp;
+            <i class="fa-solid fa-seedling fa-2xl fa-fade"></i>
+        </div>
+        <div>
+            <i class="fa-solid fa-earth-americas fa-2xl fa-fade"></i> &ensp;
+            <i class="fa-solid fa-dna fa-2xl fa-fade"></i>
+        </div>
+	</div>
+
+    <!-- start Quiz button -->
+    <div class="start_btn"><button>
+        <div class="start-icon">
+            <i class="fa-solid fa-rocket fa-beat fa-2xl"></i>
+        </div>
+        Start Quiz
+    </button></div>
+
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Welcome to The Science Quiz</span></div>
+        <div class="info-list">
+            <div class="info">Are you ready to test your knowledge of everyday Science?</div>
+            <div class="info">You will have only <span>15 seconds</span> to answer each question.</div>
+            <div class="info">You can't select any option once time goes off.</div>
+            <div class="info">You'll get 1 point for every correct answer and none for wrong ones.</div>
+            <div class="info">So get ready to kick some b... brain cells!</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Science Quiz</div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Here I've inserted question from JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Here I've inserted options from JavaScript -->
+            </div>
+        </section>
+
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!-- Here I've inserted Question Count Number from JavaScript -->
+            </div>
+            <button class="next_btn">Next</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fa-solid fa-atom fa-spin"></i>    
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+            <!--Score Result-->
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+
+	<div class="ad">
+		Made with ❤️ by Rishabh!
+	</div>
+
+	<div class="links">
+		Connect with me!&nbsp;
+		<a href="mailto: prin100603@gmail.com"><i class="fa-solid fa-envelope" style="color: #CA4E79;"></i></a>&nbsp;
+		<a href="https://www.linkedin.com/in/rishabh-das-235a0b229/"><i class="fa-brands fa-linkedin" style="color: #CA4E79;"></i></a>&nbsp;
+		<a href="https://github.com/rishabhdas1006"><i class="fa-brands fa-github" style="color: #CA4E79;"></i></a>&nbsp;
+	</div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

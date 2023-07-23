@@ -7,7 +7,7 @@
 }
 
 body{
-    background-image: url('/science-quiz/quiz_bg.jpg');
+    background-image: url('quiz_bg.jpg');
   	background-repeat: no-repeat;
   	background-attachment: fixed;
 	color: #A084CA;
